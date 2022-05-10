@@ -78,3 +78,79 @@
 .my-text-float{
     float: right;
 }
+
+/* styles for images (matthew) */
+
+.image1 {
+    width: 100%;
+    height: auto;
+    border: 5px solid #F0F0F0;
+}
+
+.applefooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* styles for icons (matthew) */
+
+.circle-icon-1 {
+    background: #E6563B;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+    padding-top: 1px;
+    margin-right: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle-icon-2 {
+    background: #EB9D3A;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+    padding-top: 1px;
+    margin-right: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle-icon-3 {
+    background: #7CB06C;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+    padding-top: 1px;
+    margin-right: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle-icon-4 {
+    background: #00ABA9;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+    padding-top: 1px;
+    font-family: 'Anton', sans-serif;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}

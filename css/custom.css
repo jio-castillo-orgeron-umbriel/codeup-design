@@ -1,6 +1,14 @@
+
+
+
+
+
+
 .my-bg-color{
     background-color: #F0F0F0;
 }
+
+
 
 .nav-font-size{
     font-size: 12px;
@@ -84,10 +92,10 @@
 .image1 {
     width: 100%;
     height: auto;
-    border: 5px solid #F0F0F0;
+    border: 5px solid #E6E6E6;
 }
 
-.applefooter {
+.apple-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

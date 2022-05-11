@@ -177,23 +177,25 @@
 
 /*MEDIA QUERY*/
 
+/*MEDIUM SCREEN START*/
 @media screen and (max-width: 768px) {
     .right-screen-side{
         display: none;
     }
-    .left-side{
-        display: flex;
-        flex-direction: column;
-    }
+
+
 
 }
 
+/*MEDIUM SCREEN END*/
 
+/*SMALL SCREEN START*/
 @media screen and (max-width:576px ) {
     .my-hidden{
         display: block;
 
     }
+
     .my-d-flex{
         display: none;
     }
@@ -201,7 +203,14 @@
     hr{
         display: none;
     }
+    .my-nav-logo{
+        display: none;
+    }
 }
+/*SMALL SCREEN END*/
+
+
+/*LARGE SCREEN START*/
 
 @media screen and (min-width: 577px) {
     .my-hidden{
@@ -211,6 +220,9 @@
     .my-d-flex{
         display: flex;
     }
-
+   .my-hidden-logo{
+       display: none;
+   }
 }
 
+/*LARGE SCREEN END*/

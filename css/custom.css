@@ -182,7 +182,9 @@
     .right-screen-side{
         display: none;
     }
-
+    .col-4{
+      width: 50%;
+    }
 
 
 }
@@ -207,7 +209,17 @@
         display: none;
     }
     .my-flex-dir{
+
         flex-direction: column;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .flex-dir-start{
+        justify-content: start;
+    }
+    .flex-dir-end{
+        justify-content: end;
     }
 }
 /*SMALL SCREEN END*/

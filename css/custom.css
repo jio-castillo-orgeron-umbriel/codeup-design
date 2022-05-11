@@ -1,6 +1,18 @@
+.my-hidden{
+    display: none;
+}
+
 .my-d-flex{
     display: flex;
+
 }
+
+/*ORDERS OF ITEMS START*/
+
+
+
+
+/*ORDERS OF ITEMS END*/
 
 .my-bg-color{
     background-color: #F0F0F0;
@@ -43,6 +55,7 @@
 }
 
 .center-develop {
+    order: 1!important;
     background: #EB9D3A;
     width: 100px;
     height: 100px;
@@ -163,8 +176,41 @@
 
 
 /*MEDIA QUERY*/
-@media screen and (max-width:768px ) {
-    .my-d-flex{
+
+@media screen and (max-width: 768px) {
+    .right-screen-side{
+        display: none;
+    }
+    .left-side{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width:576px ) {
+    .my-hidden{
         display: block;
+
+    }
+    .my-d-flex{
+        display: none;
+    }
+
+    hr{
+        display: none;
     }
 }
+
+@media screen and (min-width: 577px) {
+    .my-hidden{
+        display: none!important;
+
+    }
+    .my-d-flex{
+        display: flex;
+    }
+
+}
+

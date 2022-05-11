@@ -206,6 +206,9 @@
     .my-nav-logo{
         display: none;
     }
+    .my-flex-dir{
+        flex-direction: column;
+    }
 }
 /*SMALL SCREEN END*/
 

@@ -175,6 +175,12 @@
 }
 
 
+
+
+
+
+
+
 /*MEDIA QUERY*/
 
 /*MEDIUM SCREEN START*/
@@ -184,6 +190,9 @@
     }
     .col-4{
       width: 50%;
+    }
+    .photo-show{
+        display: none;
     }
 
 
@@ -196,6 +205,12 @@
     .my-hidden{
         display: block;
 
+    }
+    .photos-hidden{
+        display: none;
+    }
+    .photo-show{
+        display: block;
     }
 
     .my-d-flex{
@@ -236,6 +251,9 @@
         display: flex;
     }
    .my-hidden-logo{
+       display: none;
+   }
+   .photo-show{
        display: none;
    }
 }

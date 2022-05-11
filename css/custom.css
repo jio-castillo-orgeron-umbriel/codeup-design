@@ -1,8 +1,6 @@
-
-
-
-
-
+.my-d-flex{
+    display: flex;
+}
 
 .my-bg-color{
     background-color: #F0F0F0;
@@ -161,4 +159,12 @@
 .icons {
     display: flex;
     flex-direction: row;
+}
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width:768px ) {
+    .my-d-flex{
+        display: block;
+    }
 }
